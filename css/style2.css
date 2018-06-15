@@ -228,6 +228,7 @@ h3 > span:hover:before, h4 > span:hover:before, .nav a:hover:before{
  -webkit-transform: scaleX(1);
  transform: scaleX(1);
 }
+
 /* For End Under Line*/
 
 @media(max-width: 788px){
