@@ -602,7 +602,7 @@
 </div>
 
 	<footer class="container-fluid">
-			<p class="small-text">&copy; 2018 Copyright Sunder Lal</p>
+			<p class="small-text">&copy; <em id="date"></em> Copyright Sunder Lal</p>
 			<div class="social"> 
 			   <a href="#" title="linkedin"><i class="fa fa-linkedin"></i></a>
 			   <a href="#" title="twitter"><i class="fa fa-twitter"></i></a>
@@ -622,5 +622,13 @@
 <!-- Latest compiled and minified JavaScript -->
 <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
 <!--script src="javascript/bootstrap.min.js"></script -->
+<script>
+	function todayDate(){
+	   var d = new Date();
+	   var n = d.getFullYear() + "  ";
+	   return document.getElementById("date").innerHTML = n;
+	 }
+	 todayDate();
+</script>
 </body>
 </html>
